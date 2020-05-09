@@ -44,7 +44,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.05)
 		
-logo = " \n\033[1;97m█████████\n\033[1;97m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n\033[1;97m█\033[1;91m▼▼▼▼▼ \033[1;97m- _ --_--\033[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n\033[1;97m█ \033[1;97m \033[1;97m_-_-- -_ --__\033[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n\033[1;97m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mELITE v1.2\n\033[1;97m█████████      \033[1;96m●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n\033[1;97m ██ ██\n\033[1;97m╔════════════════════════════════════════╗\n\033[1;97m║\033[1;93m* \033[1;97mAuthor  \033[1;91m: \033[1;96mDvs \033[1;97m                    ║\n\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/Dvs7ssb\nm[1;97m   ║\n\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://fb.me/davidgantenghehe\033[0m   \033[1;97m║\n\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.2\033[0m                         \033[1;97m║\n\033[1;97m╚════════════════════════════════════════╝"  '\n\033[1;33m[✓] Silahkan Login Operamini Agar Tidak Checkpoint\n'
+logo = " \n\033[1;97m█████████\n\033[1;97m█▄█████▄█      \033[1;96m●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n\033[1;97m█\033[1;91m▼▼▼▼▼ \033[1;97m- _ --_--\033[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n\033[1;97m█ \033[1;97m \033[1;97m_-_-- -_ --__\033[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n\033[1;97m█\033[1;91m▲▲▲▲▲\033[1;97m--  - _ --\033[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝ \033[1;93mELITE v1.2\n\033[1;97m█████████      \033[1;96m●▬▬▬▬▬▬▬▬▬๑🔱๑▬▬▬▬▬▬▬▬●\n\033[1;97m ██ ██\n\033[1;97m╔════════════════════════════════════════╗\n\033[1;97m║\033[1;93m* \033[1;97mAuthor  \033[1;91m: \033[1;96mDvs \033[1;97m                    ║\n\033[1;97m║\033[1;93m* \033[1;97mGithub  \033[1;91m: \033[1;96mhttps://github.com/Dvs7ssb[1;97m   ║\n\033[1;97m║\033[1;93m* \033[1;97mFB      \033[1;91m: \033[1;92m\033[4mhttps://fb.me/davidgantenghehe\033[0m   \033[1;97m║\n\033[1;97m║\033[1;93m* \033[1;97mVersion \033[1;91m: \033[1;92m\033[4m1.2\033[0m                         \033[1;97m║\n\033[1;97m╚════════════════════════════════════════╝"  '\n\033[1;33m[✓] Silahkan Login Operamini Agar Tidak Checkpoint\n'
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -79,7 +79,7 @@ def siapa():
 def loginSC():
 	os.system('clear')
 	print"\033[33;1m*Baca Sebelum Menggunakan!!\nSebelum Kalian Dapat Menggunakan Script Ini Maka \nKalian Harus Memasukan Username dan Password Terlebih \nDahulu!,Jika Kalian Tidak Mempunyai/Mengetahui \nUsername dan Passwordnya, Silahkan Download Terlebih \nDahulu di Website Yang Barusan di Alihkan Otomatis.\n"
-	os.system('xdg-open https://safeku.com/8QEStJ')
+	os.system('xdg-open https://fb.com/davidgantenghehe')
         username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="dvs" and password =="ssb":
@@ -88,7 +88,7 @@ def loginSC():
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		os.system('xdg-open https://safeku.com/8QEStJ')
+		os.system('xdg-open https://fb.com/davidgantenghehe')
                 time.sleep(1)
                 LoginSC()
 
@@ -139,7 +139,7 @@ def login():
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mSepertinya Akun Anda Kena Checkpoint")
-			os.system('xdg-open https://safeku.com/9Ov12vv1')
+			os.system('xdg-open https://fb.com/davidgantenghehe')
 			time.sleep(1)
 			keluar()
 		else:
